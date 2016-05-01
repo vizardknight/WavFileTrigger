@@ -461,7 +461,7 @@ void loop()
         SendLCD_Text("Lawn Mowers     Cfg Selected");
      else if( ConfigurationNumber == 5)
         SendLCD_Text("Turbine Glider  Cfg Selected");
-    else if( ConfigurationNumber == 5)
+    else if( ConfigurationNumber == 6)
         SendLCD_Text("J10 Jet         Cfg Selected");
 
      delay(1000);
