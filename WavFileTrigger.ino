@@ -148,7 +148,7 @@ typedef struct  {
 } BUTTON;
 
 // To add or delete a config:  Change this to the exact # of cfg's
-#define NUM_CONFIGS 7
+#define NUM_CONFIGS 8
 
 // To add or delete a config:  add or delete a block here
 BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
@@ -304,6 +304,26 @@ BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
   {BUTTON3_4,"Sound Fx Future ",LED3_4,BLUE,44,POLY,0,0},   //Button 15
   {BUTTON4_4,"Heli Approach   ",LED4_4,BLUE,48,POLY,0,0}    //Button 16
 
+ //********************  Config #7: Helicopter NOTE: ALL SONGS, NO EFFECTS  **************************//
+  {BUTTON1_1,"Odessy ThemeSong",LED1_1,BLUE,55,SINGLE,3,86},     //Button 1
+  {BUTTON2_1,"BerverlyHillsCop",LED2_1,BLUE,73,SINGLE,3,181},    //Button 2
+  {BUTTON3_1,"Indiana Jones   ",LED3_1,BLUE,68,SINGLE,0,118},      //Button 3
+  {BUTTON4_1,"Dr. No  007 Song",LED4_1,BLUE,58,SINGLE,0,107},   //Button 4
+
+  {BUTTON1_2,"Mission Impossbl",LED1_2,BLUE,71,SINGLE,0,196},   //Button 5
+  {BUTTON2_2,"Gold Finger 007 ",LED2_2,BLUE,42,SINGLE,0,128},    //Button 6
+  {BUTTON3_2,"DJKilled Mix    ",LED3_2,BLUE,62,SINGLE,0,395},     //Button 7
+  {BUTTON4_2,"Dr. No  007 Song",LED4_2,GREEN,58,SINGLE,0,107},    //Button 8
+
+  {BUTTON1_3,"DreamMachine DJ ",LED1_3,RED,65,SINGLE,0,300},      //Button 9
+  {BUTTON2_3,"ModernI         ",LED2_3,YELLOW,24,SINGLE,0,232},   //Button 10
+  {BUTTON3_3,"VanHalen Dreams ",LED3_3,RED,69,SINGLE,0,294},      //Button 11
+  {BUTTON4_3,"USAF Song       ",LED4_3,BLUE,61,SINGLE,3,165},      //Button 12
+
+  {BUTTON1_4,"Mission Impossbl",LED1_4,BLUE,71,SINGLE,0,196},   //Button 13
+  {BUTTON2_4,"Mission Impossbl",LED2_4,BLUE,71,SINGLE,0,196},   //Button 14
+  {BUTTON3_4,"Mission Impossbl",LED3_4,BLUE,71,SINGLE,0,196},   //Button 15
+  {BUTTON4_4,"Mission Impossbl",LED4_4,BLUE,71,SINGLE,0,196},   //Button 16
   };
 
 
@@ -463,7 +483,8 @@ void loop()
         SendLCD_Text("Turbine Glider  Cfg Selected");
     else if( ConfigurationNumber == 6)
         SendLCD_Text("J10 Jet         Cfg Selected");
-
+    else if( ConfigurationNumber == 7)
+        SendLCD_Text("Helicopter      Cfg Selected");
      delay(1000);
      SendLCD_Text("                            ");
   }
