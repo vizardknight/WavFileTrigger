@@ -154,24 +154,24 @@ typedef struct  {
 BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
   //********************  Config #0:  F16  ********************************//
   {BUTTON1_1,"F16 Top Gun Song",LED1_1,BLUE,1,SINGLE,0,301},     //Button 1
-  {BUTTON2_1,"Gold Finger 007 ",LED2_1,BLUE,42,SINGLE,0,128},    //Button 2
+  {BUTTON2_1,"Gold Finger 007 ",LED2_1,BLUE,42,SINGLE,-3,128},    //Button 2
   {BUTTON3_1,"USAF Song       ",LED3_1,BLUE,61,SINGLE,3,165},      //Button 3
   {BUTTON4_1,"Mission Impossbl",LED4_1,BLUE,71,SINGLE,0,196},   //Button 4
 
   {BUTTON1_2,"HD Machine Gun!!",LED1_2,RED,8,POLY,0,0},   //Button 5
-  {BUTTON2_2,"Gun Battle      ",LED2_2,RED,7,POLY,-12,0},  //Button 6
+  {BUTTON2_2,"Gun Battle      ",LED2_2,RED,7,POLY,-14,0},  //Button 6
   {BUTTON3_2,"Missle Launch!!!",LED3_2,RED,11,POLY,0,0},  //Button 7
   {BUTTON4_2,"Modern Battle fX",LED4_2,YELLOW,12,POLY,1,0},  //Button 8
 
-  {BUTTON1_3,"Sounds Of War   ",LED1_3,RED,15,POLY,-8,0},  //Button 9
+  {BUTTON1_3,"Sounds Of War   ",LED1_3,RED,15,POLY,-10,0},  //Button 9
   {BUTTON2_3,"AntiAircraft Gun",LED2_3,RED,19,POLY,0,0},  //Button 10
-  {BUTTON3_3,"Enemy Spotted!! ",LED3_3,YELLOW,18,POLY,4,0},   //Button 11
+  {BUTTON3_3,"Enemy Spotted!! ",LED3_3,YELLOW,18,POLY,3,0},   //Button 11
   {BUTTON4_3,"Roger           ",LED4_3,YELLOW,13,POLY,0,0},  //Button 12
 
-  {BUTTON1_4,"Air Raid Siren  ",LED1_4,BLUE,3,POLY,-20,0},   //Button 13
-  {BUTTON2_4,"Jet Fly Over    ",LED2_4,BLUE,22,POLY,0,0},   //Button 14
-  {BUTTON3_4,"Morse Code ..-.-",LED3_4,BLUE,29,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Ship Comms      ",LED4_4,BLUE,34,POLY,0,0},  //Button 16
+  {BUTTON1_4,"Air Raid Siren  ",LED1_4,GREEN,3,POLY,-20,0},   //Button 13
+  {BUTTON2_4,"Airplane Fly By ",LED2_4,GREEN,22,POLY,0,0},   //Button 14
+  {BUTTON3_4,"Morse Code ..-.-",LED3_4,GREEN,29,POLY,0,0},   //Button 15
+  {BUTTON4_4,"Ship Comms      ",LED4_4,GREEN,34,POLY,0,0},  //Button 16
 
   //********************  Config #1: A10 Warthog  ********************************//
   {BUTTON1_1,"Odessy ThemeSong",LED1_1,BLUE,55,SINGLE,3,86},     //Button 1
@@ -179,7 +179,7 @@ BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
   {BUTTON3_1,"Indiana Jones   ",LED3_1,BLUE,68,SINGLE,0,118},      //Button 3
   {BUTTON4_1,"Dr. No  007 Song",LED4_1,BLUE,58,SINGLE,0,107},   //Button 4
 
-  {BUTTON1_2,"HD Machine Gun!!",LED1_2,RED,8,POLY,0,0},   //Button 5
+  {BUTTON1_2,"HD Machine Gun!!",LED1_2,RED,8,POLY,0,-7},   //Button 5
   {BUTTON2_2,"Warthog 0mmCanon",LED2_2,RED,4,POLY,100,},  //Button 6
   {BUTTON3_2,"Missle Launch!!!",LED3_2,GREEN,11,POLY,0,0},  //Button 7
   {BUTTON4_2,"Bomb Drop!!!!!!!",LED4_2,GREEN,2,POLY,8,0},  //Button 8
@@ -195,46 +195,46 @@ BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
   {BUTTON4_4,"FireEngineSiren",LED4_4,BLUE,25,POLY,-6,0},    //Button 16
 
   //********************  Config #2: Aerobatics  ********************************//
-  {BUTTON1_1,"DJKilled Mix    ",LED1_1,BLUE,62,SINGLE,0,395},     //Button 1
-  {BUTTON2_1,"Dr. No  007 Song",LED2_1,GREEN,58,SINGLE,0,107},    //Button 2
-  {BUTTON3_1,"DreamMachine DJ ",LED3_1,RED,65,SINGLE,0,300},      //Button 3
-  {BUTTON4_1,"ModernI         ",LED4_1,YELLOW,24,SINGLE,0,232},   //Button 4
+  {BUTTON1_1,"DJKilled Mix    ",LED1_1,BLUE,62,SINGLE,-2,395},     //Button 1
+  {BUTTON2_1,"Dr. No  007 Song",LED2_1,BLUE,58,SINGLE,0,107},    //Button 2
+  {BUTTON3_1,"DreamMachine DJ ",LED3_1,BLUE,65,SINGLE,0,300},      //Button 3
+  {BUTTON4_1,"ModernI         ",LED4_1,BLUE,24,SINGLE,0,232},   //Button 4
 
   {BUTTON1_2,"Applause Woh!!!!",LED1_2,BLUE,21,POLY,0,0},   //Button 5
-  {BUTTON2_2,"StarTrek Deni Fx",LED2_2,RED,63,POLY,0,0},  //Button 6
+  {BUTTON2_2,"VA Military Song",LED2_2,BLUE,63,SINGLE,0,60},  //Button 6
   {BUTTON3_2,"StarTrek Deni!! ",LED3_2,GREEN,64,POLY,0,0},  //Button 7
-  {BUTTON4_2,"Club Mix DJ Song",LED4_2,YELLOW,59,SINGLE,0,0},  //Button 8
+  {BUTTON4_2,"Club Mix DJ Song",LED4_2,BLUE,59,SINGLE,0,389},  //Button 8
 
-  {BUTTON1_3,"Unicom Song     ",LED1_3,BLUE,57,SINGLE,0,0},  //Button 9
-  {BUTTON2_3,"F32 DJ          ",LED2_3,BLUE,54,SINGLE,0,0},  //Button 10
-  {BUTTON3_3,"DJ Jet Mix      ",LED3_3,BLUE,47,SINGLE,0,0},  //Button 11
-  {BUTTON4_3,"Paul Remix      ",LED4_3,BLUE,41,SINGLE,0,0},   //Button 12
+  {BUTTON1_3,"Unicom Song     ",LED1_3,BLUE,57,SINGLE,0,240},  //Button 9
+  {BUTTON2_3,"F32 DJ          ",LED2_3,BLUE,54,SINGLE,0,423},  //Button 10
+  {BUTTON3_3,"DJ Jet Mix      ",LED3_3,BLUE,47,SINGLE,0,337},  //Button 11
+  {BUTTON4_3,"Paul Remix      ",LED4_3,BLUE,41,SINGLE,0,468},   //Button 12
 
-  {BUTTON1_4,"DJ ExtremeTechno",LED1_4,BLUE,26,SINGLE,0,0},   //Button 13
-  {BUTTON2_4,"Patch Instrument",LED2_4,BLUE,50,SINGLE,0,0},   //Button 14
-  {BUTTON3_4,"Applause Group  ",LED3_4,BLUE,30,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Benny Hill Song ",LED4_4,BLUE,23,POLY,0,0},    //Button 16
+  {BUTTON1_4,"DJ ExtremeTechno",LED1_4,BLUE,26,SINGLE,0,342},   //Button 13
+  {BUTTON2_4,"Patch Instrument",LED2_4,BLUE,50,SINGLE,0,74},   //Button 14
+  {BUTTON3_4,"Applause Group  ",LED3_4,GREEN,30,POLY,0,0},   //Button 15
+  {BUTTON4_4,"Benny Hill Song ",LED4_4,BLUE,23,SINGLE,0,62},    //Button 16
 
   //********************  Config #3: Warbirds  ********************************//
   {BUTTON1_1,"BaaBaaBlacksheep",LED1_1,BLUE,74,SINGLE,0,42},     //Button 1
-  {BUTTON2_1,"Odessy ThemeSong",LED2_1,GREEN,55,SINGLE,0,86},    //Button 2
-  {BUTTON3_1,"Army Strong Song",LED3_1,RED,20,SINGLE,3,130},      //Button 3
-  {BUTTON4_1,"VA Military Song",LED4_1,YELLOW,63,SINGLE,0,60},   //Button 4
+  {BUTTON2_1,"Odessy ThemeSong",LED2_1,BLUE,55,SINGLE,0,86},    //Button 2
+  {BUTTON3_1,"Army Strong Song",LED3_1,BLUE,20,SINGLE,3,130},      //Button 3
+  {BUTTON4_1,"VA Military Song",LED4_1,BLUE,63,SINGLE,0,60},   //Button 4
 
-  {BUTTON1_2,"HD Machine Gun!!",LED1_2,BLUE,8,POLY,0,0},   //Button 5
-  {BUTTON2_2,"Air Raid Siren!!",LED2_2,RED,3,POLY,-5,0},  //Button 6
-  {BUTTON3_2,"Gun Battle      ",LED3_2,GREEN,7,POLY,-6,0},  //Button 7
-  {BUTTON4_2,"Modern Battle fX",LED4_2,YELLOW,12,POLY,0,0},  //Button 8
+  {BUTTON1_2,"HD Machine Gun!!",LED1_2,GREEN,8,POLY,-20,0},   //Button 5
+  {BUTTON2_2,"Air Raid Siren!!",LED2_2,RED,3,POLY,-20,0},  //Button 6
+  {BUTTON3_2,"Gun Battle      ",LED3_2,GREEN,7,POLY,-12,0},  //Button 7
+  {BUTTON4_2,"Modern Battle fX",LED4_2,GREEN,12,POLY,0,0},  //Button 8
 
-  {BUTTON1_3,"Sounds Of War   ",LED1_3,BLUE,15,POLY,0,0},  //Button 9
-  {BUTTON2_3,"AntiAircraft Gun",LED2_3,BLUE,19,POLY,0,0},  //Button 10
-  {BUTTON3_3,"Grenade         ",LED3_3,BLUE,6,POLY,0,0},  //Button 11
-  {BUTTON4_3,"Glock 18FA      ",LED4_3,BLUE,5,POLY,0,0},   //Button 12
+  {BUTTON1_3,"Sounds Of War   ",LED1_3,GREEN,15,POLY,-10,0},  //Button 9
+  {BUTTON2_3,"AntiAircraft Gun",LED2_3,GREEN,19,POLY,0,0},  //Button 10
+  {BUTTON3_3,"Grenade         ",LED3_3,GREEN,6,POLY,0,0},  //Button 11
+  {BUTTON4_3,"Glock 18FA      ",LED4_3,GREEN,5,POLY,0-10,0},   //Button 12
 
-  {BUTTON1_4,"Roger           ",LED1_4,BLUE,13,POLY,0,0},   //Button 13
-  {BUTTON2_4,"Enemy Spotted!! ",LED2_4,BLUE,18,POLY,0,0},   //Button 14
-  {BUTTON3_4,"Artillery Fx    ",LED3_4,BLUE,46,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Porky Pig Swear!",LED4_4,BLUE,39,POLY,0,0},    //Button 16
+  {BUTTON1_4,"Roger           ",LED1_4,GREEN,13,POLY,0,0},   //Button 13
+  {BUTTON2_4,"Enemy Spotted!! ",LED2_4,GREEN,18,POLY,0,0},   //Button 14
+  {BUTTON3_4,"Artillery Fx    ",LED3_4,GREEN,46,POLY,0,0},   //Button 15
+  {BUTTON4_4,"Thunder         ",LED4_4,GREEN,16,POLY,0,0},    //Button 16
 
   //********************  Config #4: Lawn Mowers  ********************************//
 //  {BUTTON1_1,"MakingToys Instr",LED1_1,BLUE,51,SINGLE,0,243},     //Button 1
@@ -243,87 +243,87 @@ BUTTON KeyConfig[MAX_BUTTONS*NUM_CONFIGS] = {
 //  {BUTTON4_1,"Hogan's Hero's  ",LED4_1,YELLOW,74,SINGLE,0,42},   //Button 4
 
   {BUTTON1_1,"MakingToys Instr",LED1_1,BLUE,51,SINGLE,0,236},      //Button 1
-  {BUTTON2_1,"Hogan's Hero's  ",LED2_1,YELLOW,74,SINGLE,0,42},    //Button 2
-  {BUTTON3_1,"Benny Hill x1   ",LED3_1,GREEN,23,SINGLE,0,62},     //Button 3
-  {BUTTON4_1,"MakingToys Instr",LED4_1,BLUE,51,SINGLE,0,236},  //Button 4
+  {BUTTON2_1,"Hogan's Hero's  ",LED2_1,BLUE,74,SINGLE,0,42},    //Button 2
+  {BUTTON3_1,"Benny Hill x3   ",LED3_1,BLUE,110,SINGLE,0,192},     //Button 3
+  {BUTTON4_1,"PeeWee Bfast Mac",LED4_1,BLUE,99,SINGLE,0,136},  //Button 4
 
-  {BUTTON1_2,"Silly Snoring   ",LED1_2,BLUE,14,POLY,0,0},   //Button 5
-  {BUTTON2_2,"Dog Bark        ",LED2_2,RED,37,POLY,-5,0},  //Button 6
-  {BUTTON3_2,"Cat Meow        ",LED3_2,GREEN,38,POLY,0,0},  //Button 7
-  {BUTTON4_2,"Monster         ",LED4_2,YELLOW,35,POLY,0,0},  //Button 8
+  {BUTTON1_2,"Van Halen Dreams",LED1_2,BLUE,69,SINGLE,0,294},   //Button 5
+  {BUTTON2_2,"Mission Imposibl",LED2_2,BLUE,71,SINGLE,0,196},  //Button 6
+  {BUTTON3_2,"Vaders Imp March",LED3_2,BLUE,76,SINGLE,0,179},  //Button 7
+  {BUTTON4_2,"Ironman Driving ",LED4_2,BLUE,89,SINGLE,0,192},  //Button 8
 
-  {BUTTON1_3,"Fire Engine Strt",LED1_3,BLUE,25,POLY,0,0},  //Button 9
-  {BUTTON2_3,"Fire Engine Stp ",LED2_3,BLUE,28,POLY,0,0},  //Button 10
-  {BUTTON3_3,"Grenade         ",LED3_3,BLUE,6,POLY,0,0},  //Button 11
-  {BUTTON4_3,"Glock 18FA      ",LED4_3,BLUE,5,POLY,0,0},   //Button 12
+  {BUTTON1_3,"Close Encounters",LED1_3,BLUE,80,SINGLE,0,181},  //Button 9
+  {BUTTON2_3,"Ghost Busters   ",LED2_3,BLUE,104,SINGLE,0,236},  //Button 10
+  {BUTTON3_3,"Police Academy  ",LED3_3,BLUE,100,SINGLE,0,101},  //Button 11
+  {BUTTON4_3,"Unicom Song     ",LED4_3,BLUE,57,SINGLE,0,389},   //Button 12
 
-  {BUTTON1_4,"Engine Fail Heli",LED1_4,BLUE,33,POLY,0,0},   //Button 13
-  {BUTTON2_4,"Applause Group  ",LED2_4,BLUE,30,POLY,0,0},   //Button 14
-  {BUTTON3_4,"Applause Woh!!!!",LED3_4,BLUE,21,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Heli Approach   ",LED4_4,BLUE,48,POLY,0,0},    //Button 16
+  {BUTTON1_4,"Air Raid Siren  ",LED1_4,GREEN,3,POLY,-20,35},   //Button 13
+  {BUTTON2_4,"Applause Group  ",LED2_4,GREEN,30,POLY,0,9},   //Button 14
+  {BUTTON3_4,"Applause Woh!!!!",LED3_4,GREEN,21,POLY,0,8},   //Button 15
+  {BUTTON4_4,"Fire Engine     ",LED4_4,GREEN,25,POLY,0,50},    //Button 16
 
   //********************  Config #5: Turbine Glider  **************************//
   {BUTTON1_1,"BerverlyHillsCop",LED1_1,BLUE,73,SINGLE,0,181},     //Button 1
-  {BUTTON2_1,"BostonMoreFeelng",LED2_1,GREEN,67,SINGLE,0,205},    //Button 2
-  {BUTTON3_1,"VanHalen Dreams ",LED3_1,RED,69,SINGLE,0,294},      //Button 3
-  {BUTTON4_1,"Applause Woh!!!!",LED4_1,YELLOW,21,SINGLE,0,8},   //Button 4
+  {BUTTON2_1,"BostonMoreFeelng",LED2_1,BLUE,67,SINGLE,0,205},    //Button 2
+  {BUTTON3_1,"VanHalen Dreams ",LED3_1,BLUE,69,SINGLE,0,294},      //Button 3
+  {BUTTON4_1,"Back To Future  ",LED4_1,BLUE,109,SINGLE,0,203},   //Button 4
 
-  {BUTTON1_2,"Silly Snoring   ",LED1_2,BLUE,14,POLY,0,0},   //Button 5
-  {BUTTON2_2,"Dog Bark        ",LED2_2,RED,37,POLY,-5,0},  //Button 6
-  {BUTTON3_2,"Cat Meow        ",LED3_2,GREEN,38,POLY,0,0},  //Button 7
-  {BUTTON4_2,"Monster         ",LED4_2,YELLOW,35,POLY,0,0},  //Button 8
+  {BUTTON1_2,"StarWars End Ttl",LED1_2,BLUE,108,SINGLE,0,128},   //Button 5
+  {BUTTON2_2,"Man Golden Arm  ",LED2_2,BLUE,107,SINGLE,0,108},  //Button 6
+  {BUTTON3_2,"Rocky Gonna Fly ",LED3_2,BLUE,106,SINGLE,0,168},  //Button 7
+  {BUTTON4_2,"Batman Movie    ",LED4_2,BLUE,103,SINGLE,0,183},  //Button 8
 
-  {BUTTON1_3,"Fire Engine Strt",LED1_3,BLUE,25,POLY,0,0},  //Button 9
-  {BUTTON2_3,"Fire Engine Stp ",LED2_3,BLUE,28,POLY,0,0},  //Button 10
-  {BUTTON3_3,"Grenade         ",LED3_3,BLUE,6,POLY,0,0},  //Button 11
-  {BUTTON4_3,"Glock 18FA      ",LED4_3,BLUE,5,POLY,0,0},   //Button 12
+  {BUTTON1_3,"Jurassic Park   ",LED1_3,BLUE,101,SINGLE,0,355},  //Button 9
+  {BUTTON2_3,"Imagine The Fire",LED2_3,BLUE,97,SINGLE,0,448},  //Button 10
+  {BUTTON3_3,"Spiderman Movie ",LED3_3,BLUE,96,SINGLE,0,278},  //Button 11
+  {BUTTON4_3,"Eyes Wide Shut  ",LED4_3,BLUE,95,SINGLE,0,229},   //Button 12
 
-  {BUTTON1_4,"Engine Fail Heli",LED1_4,BLUE,33,POLY,0,0},   //Button 13
-  {BUTTON2_4,"Xformers SFx    ",LED2_4,BLUE,45,POLY,0,0},   //Button 14
-  {BUTTON3_4,"Sound Fx Future ",LED3_4,BLUE,44,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Heli Approach   ",LED4_4,BLUE,48,POLY,0,0},    //Button 16
+  {BUTTON1_4,"Aerosmith Unicrn",LED1_4,BLUE,94,SINGLE,0,233},   //Button 13
+  {BUTTON2_4,"Around World 180",LED2_4,BLUE,92,SINGLE,0,202},   //Button 14
+  {BUTTON3_4,"Xmen Magneto    ",LED3_4,BLUE,91,SINGLE,0,107},   //Button 15
+  {BUTTON4_4,"Fortunate Son   ",LED4_4,BLUE,77,SINGLE,0,141},    //Button 16
 
   //********************  Config #6: J10 Jet   **************************//
-  {BUTTON1_1,"Odessy ThemeSong",LED1_1,BLUE,55,SINGLE,3,86},     //Button 1
-  {BUTTON2_1,"BerverlyHillsCop",LED2_1,BLUE,73,SINGLE,3,181},    //Button 2
+  {BUTTON1_1,"Pulp FictMisirlo",LED1_1,BLUE,98,SINGLE,0,135},     //Button 1
+  {BUTTON2_1,"BerverlyHillsCop",LED2_1,BLUE,73,SINGLE,0,181},    //Button 2
   {BUTTON3_1,"Indiana Jones   ",LED3_1,BLUE,68,SINGLE,0,118},      //Button 3
   {BUTTON4_1,"Dr. No  007 Song",LED4_1,BLUE,58,SINGLE,0,107},   //Button 4
 
-  {BUTTON1_2,"HD Machine Gun!!",LED1_2,RED,8,POLY,0,0},   //Button 5
-  {BUTTON2_2,"Warthog 0mmCanon",LED2_2,RED,4,POLY,100,},  //Button 6
-  {BUTTON3_2,"Missle Launch!!!",LED3_2,GREEN,11,POLY,0,0},  //Button 7
-  {BUTTON4_2,"Bomb Drop!!!!!!!",LED4_2,GREEN,2,POLY,8,0},  //Button 8
+  {BUTTON1_2,"Love a bad name",LED1_2,BLUE,75,SINGLE,0,223},   //Button 5
+  {BUTTON2_2,"Mission Imposbl2",LED2_2,BLUE,72,SINGLE,0,198},  //Button 6
+  {BUTTON3_2,"Rocky Theme     ",LED3_2,BLUE,81,SINGLE,0,289},  //Button 7
+  {BUTTON4_2,"Air Force One   ",LED4_2,BLUE,84,SINGLE,0,111},  //Button 8
 
-  {BUTTON1_3,"Grenade        ",LED1_3,RED,6,POLY,0,0},  //Button 9
-  {BUTTON2_3,"Sounds of War  ",LED2_3,RED,15,POLY,-8,0},  //Button 10
-  {BUTTON3_3,"Enemy Spotted!! ",LED3_3,YELLOW,18,POLY,4,0},   //Button 11
-  {BUTTON4_3,"Roger           ",LED4_3,YELLOW,13,POLY,0,0},  //Button 12
+  {BUTTON1_3,"Cold Play Clocks",LED1_3,BLUE,85,SINGLE,0,250},  //Button 9
+  {BUTTON2_3,"Xformers Its Our",LED2_3,BLUE,82,SINGLE,0,400},  //Button 10
+  {BUTTON3_3,"Thor Kills Destr",LED3_3,BLUE,88,SINGLE,0,114},   //Button 11
+  {BUTTON4_3,"Close Encounters",LED4_3,BLUE,80,SINGLE,0,181},  //Button 12
 
-  {BUTTON1_4,"Applause Woh!!!!",LED1_4,YELLOW,21,SINGLE,0,8},   //Button 4
-  {BUTTON2_4,"Xformers SFx    ",LED2_4,BLUE,45,POLY,0,0},   //Button 14
-  {BUTTON3_4,"Sound Fx Future ",LED3_4,BLUE,44,POLY,0,0},   //Button 15
-  {BUTTON4_4,"Heli Approach   ",LED4_4,BLUE,48,POLY,0,0}    //Button 16
+  {BUTTON1_4,"Applause Woh!!!!",LED1_4,GREEN,21,POLY,0,8},   //Button 4
+  {BUTTON2_4,"Xformers SFx    ",LED2_4,GREEN,45,POLY,-25,0},   //Button 14
+  {BUTTON3_4,"Sound Fx Future ",LED3_4,GREEN,44,POLY,-25,0},   //Button 15
+  {BUTTON4_4,"Applause Group  ",LED4_4,GREEN,30,POLY,0,9},    //Button 16
 
  //********************  Config #7: Helicopter NOTE: ALL SONGS, NO EFFECTS  **************************//
-  {BUTTON1_1,"Odessy ThemeSong",LED1_1,BLUE,55,SINGLE,3,86},     //Button 1
-  {BUTTON2_1,"BerverlyHillsCop",LED2_1,BLUE,73,SINGLE,3,181},    //Button 2
-  {BUTTON3_1,"Indiana Jones   ",LED3_1,BLUE,68,SINGLE,0,118},      //Button 3
+  {BUTTON1_1,"Club Remix      ",LED1_1,BLUE,59,SINGLE,3,389},     //Button 1
+  {BUTTON2_1,"Fahrenheit 32   ",LED2_1,BLUE,87,SINGLE,3,423},    //Button 2
+  {BUTTON3_1,"Cold Play Clocks",LED3_1,BLUE,85,SINGLE,0,250},      //Button 3
   {BUTTON4_1,"Dr. No  007 Song",LED4_1,BLUE,58,SINGLE,0,107},   //Button 4
 
   {BUTTON1_2,"Mission Impossbl",LED1_2,BLUE,71,SINGLE,0,196},   //Button 5
-  {BUTTON2_2,"Gold Finger 007 ",LED2_2,BLUE,42,SINGLE,0,128},    //Button 6
+  {BUTTON2_2,"DJ Jet Mix      ",LED2_2,BLUE,47,SINGLE,0,337},    //Button 6
   {BUTTON3_2,"DJKilled Mix    ",LED3_2,BLUE,62,SINGLE,0,395},     //Button 7
-  {BUTTON4_2,"Dr. No  007 Song",LED4_2,GREEN,58,SINGLE,0,107},    //Button 8
+  {BUTTON4_2,"Jet Instrumentl",LED4_2,BLUE,56,SINGLE,0,232},    //Button 8
 
-  {BUTTON1_3,"DreamMachine DJ ",LED1_3,RED,65,SINGLE,0,300},      //Button 9
-  {BUTTON2_3,"ModernI         ",LED2_3,YELLOW,24,SINGLE,0,232},   //Button 10
-  {BUTTON3_3,"VanHalen Dreams ",LED3_3,RED,69,SINGLE,0,294},      //Button 11
-  {BUTTON4_3,"USAF Song       ",LED4_3,BLUE,61,SINGLE,3,165},      //Button 12
+  {BUTTON1_3,"DreamMachine DJ ",LED1_3,BLUE,66,SINGLE,0,192},      //Button 9
+  {BUTTON2_3,"ModernI         ",LED2_3,BLUE,24,SINGLE,0,232},   //Button 10
+  {BUTTON3_3,"VanHalen Dreams ",LED3_3,BLUE,69,SINGLE,0,294},      //Button 11
+  {BUTTON4_3,"Startrk DeniSfx2",LED4_3,BLUE,65,SINGLE,3,165},      //Button 12
 
-  {BUTTON1_4,"Mission Impossbl",LED1_4,BLUE,71,SINGLE,0,196},   //Button 13
-  {BUTTON2_4,"Mission Impossbl",LED2_4,BLUE,71,SINGLE,0,196},   //Button 14
-  {BUTTON3_4,"Mission Impossbl",LED3_4,BLUE,71,SINGLE,0,196},   //Button 15
-  {BUTTON4_4,"Mission Impossbl",LED4_4,BLUE,71,SINGLE,0,196},   //Button 16
+  {BUTTON1_4,"DJ Extra Techno ",LED1_4,BLUE,26,SINGLE,0,342},   //Button 13
+  {BUTTON2_4,"DJ Jet Airplane ",LED2_4,BLUE,27,SINGLE,0,337},   //Button 14
+  {BUTTON3_4,"Aerosmith Unicrn",LED3_4,BLUE,94,SINGLE,0,233},   //Button 15
+  {BUTTON4_4,"F32 DJ Sounds   ",LED4_4,BLUE,54,SINGLE,0,423}   //Button 16
   };
 
 
